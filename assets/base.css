@@ -2052,7 +2052,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   align-items: center;
   text-align: center;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* utility-bar */
@@ -2522,7 +2522,6 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__icon--cart {
   position: relative;
-  margin-right: -1.2rem;
 }
 
 .header__icon--menu[aria-expanded='true']::before {
