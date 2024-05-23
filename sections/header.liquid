@@ -263,13 +263,7 @@
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         <div class="cart-count-bubble">
-          <span aria-hidden="true">
-            {%- if cart.item_count < 100 -%}
-              {{ cart.item_count }}
-            {%- else -%}
-              *
-            {%- endif -%}
-          </span>
+          {%- if cart.item_count < 100 -%}{{ cart.item_count }}{%- else -%}*{%- endif -%}
         </div>
       </a>
 
