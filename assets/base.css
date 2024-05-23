@@ -2050,9 +2050,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .cart-count-bubble {
   position: absolute;
-  color: rgb(var(--color-button-text));
-  height: 1.7rem;
-  width: 1.7rem;
+  color: #ee2f53;
+  height: 1.5rem;
+  width: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
