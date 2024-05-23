@@ -2044,15 +2044,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 /* component-cart-count-bubble */
-.cart-count-bubble:empty {
-  display: none;
-}
-
 .cart-count-bubble {
   position: absolute;
   color: #ee2f53;
-  height: 1.5rem;
-  width: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
