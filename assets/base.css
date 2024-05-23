@@ -2050,7 +2050,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.9rem;
+  text-align: center;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 
