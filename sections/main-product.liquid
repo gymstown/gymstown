@@ -129,6 +129,13 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
+              {% if product.compare_at_price > product.price %}
+<div class="discount-info">
+  <p>折扣优惠！</p>
+  <p>原价：{{ product.compare_at_price | money }}</p>
+  <p>现价：{{ product.price | money }}</p>
+</div>
+{% endif %}
               {%- when 'inventory' -%}
                 <p
                   class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
